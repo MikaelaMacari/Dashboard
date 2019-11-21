@@ -1,0 +1,72 @@
+html,body{
+    height: 100%;
+}
+body{
+    padding-top: 60px;
+}
+
+.huge{
+    font-size: 40px;
+}
+.tag-boxes .panel-primary{
+    border: 1px solid #2FA4E7;
+}
+
+.tag-boxes .panel-red{
+    color: white;
+    background: #ff471a;
+}
+
+.tag-boxes .panel-red a{ 
+    color: #ff471a;
+}
+
+.tag-boxes .panel-red a:hover{ 
+    color: #ff3300;
+}
+
+.tag-boxes .panel-yellow{
+    color: white;
+    background: #ffd11a;
+}
+
+.tag-boxes .panel-yellow a{ 
+    color: #ffd11a;
+}
+
+.tag-boxes .panel-yellow a:hover{ 
+    color: #ffcc00;
+}
+
+.tag-boxes .panel-green{
+    color: white;
+    background: #47d147;
+}
+
+.tag-boxes .panel-green a{ 
+    color: #47d147;
+}
+
+.tag-boxes .panel-green a:hover{ 
+    color: #33cc33;
+}
+
+#wrapper{
+    min-height: 100%;
+    position: relative;
+}
+
+.body-section{
+    padding-bottom: 70px;
+}
+
+footer{
+    background: #2FA4E7;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
